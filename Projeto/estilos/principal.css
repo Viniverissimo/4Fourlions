@@ -1,0 +1,157 @@
+body {
+    background: url(../multimidia/home.jpg) top center;
+    background-repeat: no-repeat;
+    font-family: Helvetica, Arial, sans-serif, Segoe UI;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* Logo */
+header .fourlion {
+	width: 1000px;
+	background-image: url(../multimidia/logo.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 300px;
+	height: 200px;
+	text-indent: -1000px;
+	margin-bottom: 10px;
+}
+
+/* Redes Sociais */
+header img {
+    width: 30px;
+    margin: 5px;
+    position: relative;
+    top: -65px;
+    left: 715px;
+}
+
+figure.redesSociais{
+    margin: 10px;
+}
+
+.icone-insta:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.icone-face:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* Barra de Navegação */
+nav {
+    background-color: rgba(10,23,55,0.6);
+    overflow: auto;
+    clear: both;
+    border-radius: 20px;
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    padding: 3px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+    margin-top: auto;
+    text-align: center;
+   
+}
+
+nav ul li {
+    border: 0.5px solid #fff;;
+    border-top: 0px;
+    border-bottom: 0px;
+    float: left;
+    display: inline-block;
+}
+
+nav ul a {
+    color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 8px 30px;
+    line-height: 2.5em;
+}
+
+li a:hover {
+    background-color: rgba(10,23,55,0.2);
+    color: #F5AE1B;
+    transition:  color 0.2s;
+}
+
+/* Corpo do site */
+main{
+    background: rgba(10,23,55,0.6);
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+    height: auto;
+}
+
+div.home h1 {
+    background: dimgray;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 2.0em;
+}
+.informacoes {
+    background: dimgray;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 2.0em;
+}
+
+main img {
+    float: left;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+main p {
+    color: #fff;
+    text-align: justify;
+    padding: 20px 100px 20px 40px;
+}
+
+.botao-topo{
+    float: right;
+    margin-top: 30%;
+    width: 0px;   
+}
+.img-topo{
+    position: fixed;
+    width: 55px;
+}
+.img-topo:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+/* Rodapé */
+footer p {
+    padding: 5px;
+}
+
+#rodape {
+    background: rgba(10,23,55,0.6);
+    text-align: center;
+    color: #fff;;
+    border-radius: 20px;
+}
