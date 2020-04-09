@@ -1,7 +1,7 @@
 body {
     background: url(../multimidia/home.jpg) top center;
     background-repeat: no-repeat;
-    font-family: Helvetica, Arial, sans-serif, Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -78,6 +78,7 @@ nav ul li {
 
 nav ul a {
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: none;
 	font-size: 1.2em;
 	padding: 8px 30px;
@@ -115,7 +116,7 @@ div.home h1 {
     font-size: 2.0em;
 }
 
-main img {
+.home img {
     float: left;
     height: 200px;
     padding-left: 40px;
@@ -127,8 +128,64 @@ main img {
 main p {
     color: #fff;
     text-align: justify;
+    font-size: 1.1em;
     padding: 20px 100px 20px 40px;
 }
+
+/* Pagina Sobre */
+
+#sobre img {
+    float: left;
+    height: 250px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+/* Pagina Eventos */
+
+#eventos img {
+    float: left;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.sub {
+    background: #fff;
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 450px;
+    position: absolute;
+    right: -100px;
+}
+
+#eventos p {
+    position: relative;
+    top: 50px;
+    left: -18px;
+}
+
+#eventos ul {
+    width: 880px;
+    list-style: none;
+    display: table;
+    margin: 10px;
+}
+
+.tamanho {
+    width: 300px;
+    padding: 1px;
+    position: relative;
+    left: 35px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+/* Botão Topo */
 
 .botao-topo{
     float: right;
@@ -144,7 +201,9 @@ main p {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
 /* Rodapé */
+
 footer p {
     padding: 5px;
 }
